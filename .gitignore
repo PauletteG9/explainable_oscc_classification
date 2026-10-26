@@ -1,8 +1,19 @@
 
+# Python virtual environments
 .venv/
+venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Environment variables and secrets
 .env
+.env.*
+
+# Training outputs
 runs/
+
+# Local dataset (keep images off GitHub)
 dataset/
